@@ -205,5 +205,3 @@ The trained model and TF-IDF vectorizer are saved using Joblib.
 - Build a Streamlit web application
 
 
-
-⭐ If you found this project useful, consider starring the repository!
