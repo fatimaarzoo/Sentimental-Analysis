@@ -196,12 +196,6 @@ The trained model and TF-IDF vectorizer are saved using Joblib.
 - Combine similar sentiment categories
 - Create broader Positive/Negative/Neutral classes
 - Increase training data
-- Apply class-balancing techniques
-- Perform hyperparameter tuning
-- Use stemming or lemmatization
-- Test character n-grams
-- Use BERT or other transformer models
-- Add cross-validation
 - Build a Streamlit web application
 
 
