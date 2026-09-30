@@ -191,52 +191,6 @@ Predictions should be treated as model outputs because the dataset contains many
 The trained model and TF-IDF vectorizer are saved using Joblib.
 
 
-## ⚙️ Installation
-
-### Clone the Repository
-
-`git clone <your-repository-url>`
-
-`cd sentiment-analysis`
-
-### Install Dependencies
-
-`pip install pandas numpy matplotlib seaborn wordcloud nltk scikit-learn joblib`
-
-Or:
-
-`pip install -r requirements.txt`
-
-### Download NLTK Stopwords
-
-Run:
-
-`import nltk`
-
-`nltk.download("stopwords")`
-
-## ▶️ Running the Project
-
-Start Jupyter Notebook:
-
-`jupyter notebook`
-
-Open:
-
-`sentiment_analysis.ipynb`
-
-Then execute the notebook cells sequentially.
-
-## 📊 Key Findings
-
-- The dataset contains 732 records.
-- There are many different sentiment categories.
-- Several classes contain very few examples.
-- TF-IDF with unigrams, bigrams, and trigrams is used.
-- Four machine learning models were compared.
-- Linear SVM achieved 46.26% accuracy.
-- The fragmented class distribution makes multi-class classification challenging.
-
 ## 🚀 Future Improvements
 
 - Combine similar sentiment categories
